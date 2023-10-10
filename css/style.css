@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Advertencia:wght@500 & display=swap');
+
+html {
+    font-size: 20px;
+}
+
+header {
+     background-color: #E79EFF;
+    border-bottom: 5px solid #a73657;
+
+}
+header img{
+    width: 10rem;
+}
+.nav-renna{
+    font-family: 'Advertencia', cursiva;
+    margin: 1.5rem;
+    color: #4F7D96;
+}
+.nav-renna:hover{
+    color: #ffc328;
+}
+
+header a{
+    transition: 1s;
+}
+header a:hover{
+    color: #ffc328;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor:pointer;
+
+}
+section img {
+    width: 15rem;
+}
+
+
+ section h1{
+    color: #1A1A1A;
+    font-size: 2.2rem;
+    font-family: 'Advertencia', cursiva;
+    margin-left: 5rem;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+section .caja-uno {
+    padding: 1.4rem;
+    background-color:#4F7D96;
+    border-radius: 2rem;
+    align-self: center;
+}
+
+section .caja-dos {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    background-color:#4F7D96;
+    border-radius: 2rem;
+    align-self: center;
+}
+
+section .caja-tres {
+    padding: 1.4rem;
+    background-color:#4F7D96;
+    border-radius: 2rem;
+    align-self: center;
+}
+
+
+
+   
+section .caja-cuatro{
+    padding: 1.4rem;
+    background-color:#4F7D96;
+    border-radius: 2rem;
+    align-self: center;
+}
+section .caja-cinco{
+    padding: 1.4rem;
+    border-radius: 2rem;
+    background-color:#4F7D96;
+    align-self: center;
+}
+section .caja-seis{
+    padding: 1.4rem;
+    background-color:#4F7D96;
+    border-radius: 2rem;
+    align-self: center;
+    justify-content: center;
+}
+
+
+
+
+p {
+    font-family: 'Advertencia', cursiva;
+    font-size: medium;
+    font-style: oblique;
+    text-align: center;
+
+}
+
+
+
+footer {
+       flex-wrap: wrap;
+      font-family:'Advertencia', cursiva; 
+       font-size: 1.5rem;
+      list-style: none;
+      background-color:#fff7d0;
+      margin: 5rem;
+}
+footer li a{
+    color: #1A1A1A;
+    text-decoration: none;
+
+}
+
+footer li a:active{
+    color:#91ffbe;
+}
+/*Pagina Productos*/
+  section h2{
+    color: #1A1A1A;
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    font-family: 'Advertencia', cursiva;
+    
+}
+ section .parrafo-productos{
+    color:#e9c6db;
+    background-color:#a73657;
+    font-size: 3rem;
+    border: 1rem double black;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ section div h2{
+    color: #1A1A1A;
+    font-size: 2rem;
+    font-family: 'Advertencia', cursiva;
+    align-self: center;
+    margin-left: 2rem;
+
+}
+section .caja-siete{
+    margin-top: 4rem;
+    padding: 1.4rem;
+    background-color: #4F7D96;
+    border-radius: 2rem;
+    align-self: center;
+    
+}
+section .caja-ocho{
+    margin-top: 4rem;
+    padding: 1.4rem;
+    background-color: #4F7D96;
+    border-radius: 2rem;
+    align-self: center;
+}
+section .caja-nueve{
+    margin-top: 4rem;
+    padding:1.4rem ;
+    background-color: #4F7D96;
+    border-radius: 2rem;
+    align-self: center;
+
+}
+section .caja-diez{
+    margin-top: 4rem;
+    padding: 1.4rem;
+    background-color: #4F7D96;
+    border-radius: 2rem;
+    align-self: center;
+}
+body{
+    background-color: #fff7d0;
+}
