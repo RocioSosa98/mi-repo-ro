@@ -1,3 +1,4 @@
+@import "../utilities/variables";
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,6 @@ html {
     font-size: 20px;
 }
 body{
-    background-color: #ffe5ec;
+    background-color: $background-body;
 }
 

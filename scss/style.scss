@@ -2,13 +2,23 @@
 @import "layout/header";
 //import base
 @import "base/reset";
+//import fonts
+@import "base/fonts.scss";
 //import section
 @import "layout/section";
 //import footer
 @import "layout/footer";
+//import variables
+@import "utilities/variables";
+//import mixin
+@import "utilities/mixin";
+//import button
+@import "components/button.scss";
+//import extend
+@import "utilities/extend"
 
 
-// fonts
-@import url('https://fonts.googleapis.com/css2? family= Advertencia:wght@500 & display=swap');
+
+
 
 

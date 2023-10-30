@@ -21,18 +21,6 @@ header nav ul li a:hover {
   font-size: 1.2rem;
   transition: 2s;
 }
-header nav .button-01 {
-  display: block;
-  text-decoration: none;
-  color: #a73657;
-  margin-left: 2rem;
-  margin-top: 2rem;
-  padding: 1rem;
-  width: 7rem;
-  border-radius: 2rem;
-  text-align: center;
-  background-image: linear-gradient(to right, #ffccd5, #fff0f3);
-}
 
 * {
   margin: 0;
@@ -60,7 +48,7 @@ section img {
   width: 15rem;
 }
 section h1 {
-  color: #1A1A1A;
+  color: #343a40;
   font-size: 2.2rem;
   font-family: "Advertencia", cursiva;
   margin-left: 5rem;
@@ -73,6 +61,7 @@ section .caja-uno {
   border-radius: 2rem;
   align-self: center;
   margin-top: 2rem;
+  color: #343a40;
 }
 section .caja-dos {
   margin-top: 4rem;
@@ -81,6 +70,7 @@ section .caja-dos {
   background-color: #4F7D96;
   border-radius: 2rem;
   align-self: center;
+  color: #343a40;
 }
 section .caja-tres {
   margin-top: 4rem;
@@ -88,6 +78,7 @@ section .caja-tres {
   background-color: #4F7D96;
   border-radius: 2rem;
   align-self: center;
+  color: #343a40;
 }
 section .caja-cuatro {
   margin-top: 4rem;
@@ -95,6 +86,7 @@ section .caja-cuatro {
   background-color: #4F7D96;
   border-radius: 2rem;
   align-self: center;
+  color: #343a40;
 }
 section .caja-cinco {
   margin-top: 4rem;
@@ -102,6 +94,7 @@ section .caja-cinco {
   border-radius: 2rem;
   background-color: #4F7D96;
   align-self: center;
+  color: #343a40;
 }
 section .caja-seis {
   margin-top: 4rem;
@@ -110,6 +103,7 @@ section .caja-seis {
   border-radius: 2rem;
   align-self: center;
   justify-content: center;
+  color: #343a40;
 }
 section p {
   font-family: "Advertencia", cursiva;
@@ -117,24 +111,17 @@ section p {
   font-style: oblique;
   text-align: center;
 }
-section h2 {
-  color: #1A1A1A;
-  font-size: 2rem;
-  margin-top: 4rem;
-  margin-left: 5rem;
-  font-family: "Advertencia", cursiva;
-}
-section .parrafo-productos {
+section .parrafo-productos, section div.parrafo-mujeres {
   color: #e9c6db;
   background-color: #a73657;
-  font-size: 3rem;
+  font-size: 4rem;
   border: 1rem double black;
   margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
 }
 section div h2 {
-  color: #1A1A1A;
+  color: #343a40;
   font-size: 2rem;
   font-family: "Advertencia", cursiva;
   align-self: center;
@@ -146,6 +133,7 @@ section .caja-siete {
   background-color: #4F7D96;
   border-radius: 2rem;
   align-self: center;
+  color: #343a40;
 }
 section .caja-ocho {
   margin-top: 4rem;
@@ -153,6 +141,7 @@ section .caja-ocho {
   background-color: #4F7D96;
   border-radius: 2rem;
   align-self: center;
+  color: #343a40;
 }
 section .caja-nueve {
   margin-top: 4rem;
@@ -160,6 +149,7 @@ section .caja-nueve {
   background-color: #4F7D96;
   border-radius: 2rem;
   align-self: center;
+  color: #343a40;
 }
 section .caja-diez {
   margin-top: 4rem;
@@ -167,6 +157,7 @@ section .caja-diez {
   background-color: #4F7D96;
   border-radius: 2rem;
   align-self: center;
+  color: #343a40;
 }
 section video {
   width: 100%;
@@ -190,6 +181,7 @@ section .caja-doce {
   background-color: #4F7D96;
   border-radius: 2rem;
   align-self: center;
+  color: #343a40;
 }
 section .caja-trece {
   margin: 1rem;
@@ -197,6 +189,7 @@ section .caja-trece {
   background-color: #4F7D96;
   border-radius: 2rem;
   align-self: center;
+  color: #343a40;
 }
 section .caja-catorce {
   margin: 1rem;
@@ -211,16 +204,21 @@ section .caja-quince {
   background-color: #4F7D96;
   border-radius: 2rem;
   align-self: center;
+  color: #343a40;
 }
 section .preguntas h2 {
   font-size: 2rem;
-  color: white;
+  color: #343a40;
 }
 section .preguntas ol li {
-  color: black;
+  color: #343a40;
   font-size: 1rem;
 }
-
+section video {
+  width: 90%;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
 footer {
   background-image: linear-gradient(to right, #FF80E6, #800080);
   color: black;
@@ -237,12 +235,12 @@ footer .container-footer .column-01 {
   max-width: 30rem;
 }
 footer .container-footer .column-01 h1 {
-  font-size: 2rem;
-  color: black;
+  font-size: 2.2rem;
+  color: color-renna;
 }
 footer .container-footer .column-01 p {
   font-size: 1rem;
-  color: white;
+  color: color-renna;
   margin-top: 1rem;
 }
 footer .container-footer .column-02 {
@@ -253,25 +251,42 @@ footer .container-footer .column-02 h2 {
   font-size: 2rem;
 }
 footer .container-footer .column-02 .filas {
-  color: white;
+  color: color-renna;
   margin-top: 2rem;
   display: flex;
 }
 footer .container-footer .column-02 .filas img {
   width: 4rem;
 }
-footer .container-footer .column-03 {
-  margin-left: 4rem;
-}
-footer .container-footer .column-03 h2 {
-  color: green;
-}
-footer .container-footer .column-03 li a {
-  color: yellow;
+
+.button1 {
+  background-color: pink;
+  color: black;
+  width: 7rem;
+  font-family: Arial;
+  transition: 1s;
+  cursor: pointer;
+  padding: 1rem;
   text-decoration: none;
+  border-radius: 2rem;
+  text-align: center;
+  display: flex;
 }
-footer .container-footer .column-03 li a:active {
-  color: #91ffbe;
+.button1:hover {
+  background-color: purple;
+}
+
+.button-01 {
+  display: block;
+  text-decoration: none;
+  color: #a73657;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 7rem;
+  border-radius: 2rem;
+  text-align: center;
+  background-image: linear-gradient(to right, #ffccd5, #fff0f3);
 }
 
 /*# sourceMappingURL=style.css.map */

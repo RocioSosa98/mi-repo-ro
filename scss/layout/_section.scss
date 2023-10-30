@@ -1,3 +1,5 @@
+@import "../utilities/variables";
+
 section {
     display: flex;
     justify-content: space-between;
@@ -12,8 +14,8 @@ section {
     }
 
     h1 {
-        color: #1A1A1A;
-        font-size: 2.2rem;
+        color: $color-renna;
+        font-size: $font-size-h1;
         font-family: 'Advertencia', cursiva;
         margin-left: 5rem;
         padding-bottom: 4rem;
@@ -23,52 +25,58 @@ section {
 
     .caja-uno {
         padding: 1.4rem;
-        background-color: #4F7D96;
+        background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
         margin-top: 2rem;
+        color: $color-renna;
     }
 
     .caja-dos {
         margin-top: 4rem;
         padding-right: 1.5rem;
         padding-left: 1.5rem;
-        background-color: #4F7D96;
+        background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
+        color: $color-renna;
     }
 
     .caja-tres {
         margin-top: 4rem;
         padding: 1.4rem;
-        background-color: #4F7D96;
+        background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
+        color: $color-renna;
     }
 
     .caja-cuatro {
         margin-top: 4rem;
         padding: 1.4rem;
-        background-color: #4F7D96;
+        background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
+        color: $color-renna;
     }
 
     .caja-cinco {
         margin-top: 4rem;
         padding: 1.4rem;
         border-radius: 2rem;
-        background-color: #4F7D96;
+        background-color: $color-box;
         align-self: center;
+        color: $color-renna;
     }
 
     .caja-seis {
         margin-top: 4rem;
         padding: 1.4rem;
-        background-color: #4F7D96;
+        background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
         justify-content: center;
+        color: $color-renna;
     }
 
     p {
@@ -80,19 +88,11 @@ section {
     }
 
     /*Pagina Productos*/
-    h2 {
-        color: #1A1A1A;
-        font-size: 2rem;
-        margin-top: 4rem;
-        margin-left: 5rem;
-        font-family: 'Advertencia', cursiva;
-
-    }
 
     .parrafo-productos {
         color: #e9c6db;
-        background-color: #a73657;
-        font-size: 3rem;
+        background-color: $background-prod;
+        font-size: $font-size-parra;
         border: 1rem double black;
         margin-top: 2rem;
         display: flex;
@@ -100,8 +100,8 @@ section {
     }
 
     div h2 {
-        color: #1A1A1A;
-        font-size: 2rem;
+        color: $color-renna;
+        font-size: $font-size-h2;
         font-family: 'Advertencia', cursiva;
         align-self: center;
         margin-left: 2rem;
@@ -111,43 +111,47 @@ section {
     .caja-siete {
         margin-top: 4rem;
         padding: 1.4rem;
-        background-color: #4F7D96;
+        background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
+        color: $color-renna;
 
     }
 
     .caja-ocho {
         margin-top: 4rem;
         padding: 1.4rem;
-        background-color: #4F7D96;
+        background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
+        color: $color-renna;
     }
 
     .caja-nueve {
         margin-top: 4rem;
         padding: 1.4rem;
-        background-color: #4F7D96;
+        background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
+        color: $color-renna;
 
     }
 
     .caja-diez {
         margin-top: 4rem;
         padding: 1.4rem;
-        background-color: #4F7D96;
+        background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
+        color: $color-renna;
     }
 
     //Pagina Combos
 
-video{
-    width: 100%;
-     margin-top:3rem;
-}
+    video {
+        width: 100%;
+        margin-top: 3rem;
+    }
 
     .parrafo-combos {
         margin: 2rem;
@@ -157,63 +161,80 @@ video{
 
     .caja-once {
         margin: 1rem;
-        // margin-top: 4rem;
         padding: 1.4rem;
-        background-color: #4F7D96;
+        background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
     }
 
     .caja-doce {
         margin: 1rem;
-        // margin-top: 4rem;
         padding: 1.4rem;
-        background-color: #4F7D96;
+        background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
+        color: $color-renna;
     }
 
     .caja-trece {
         margin: 1rem;
-        // margin-top: 4rem;
         padding: 1.4rem;
-        background-color: #4F7D96;
+        background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
+        color: $color-renna;
     }
 
     .caja-catorce {
         margin: 1rem;
         // margin-top: 4rem;
         padding: 1.4rem;
-        background-color: #4F7D96;
+        background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
     }
 
     .caja-quince {
         margin: 1rem;
-        // margin-top: 4rem;
         padding: 1.4rem;
-        background-color: #4F7D96;
+        background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
+        color: $color-renna;
     }
 
     //Pagina Preguntas
 
-    .preguntas{
-        h2{
-            font-size: 2rem;
-            color:white;
+    .preguntas {
+        h2 {
+            font-size: $font-size-h2;
+            color: $color-renna;
         }
-        ol{
-            li{
-                color: black;
+
+        ol {
+            li {
+                color: $color-renna;
                 font-size: 1rem;
             }
         }
     }
+
+    // Pagina Mujeres   
+    video{
+        width: 90%;
+       margin-top: 2rem;
+       margin-left: 2rem
+   
+    }
+    div.parrafo-mujeres{
+
+        @extend.parrafo-productos;
+
+    }
+        
+          
+        
+    
 
 
 }
