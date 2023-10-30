@@ -202,7 +202,18 @@ video{
 
     //Pagina Preguntas
 
-
+    .preguntas{
+        h2{
+            font-size: 2rem;
+            color:white;
+        }
+        ol{
+            li{
+                color: black;
+                font-size: 1rem;
+            }
+        }
+    }
 
 
 }

@@ -212,6 +212,14 @@ section .caja-quince {
   border-radius: 2rem;
   align-self: center;
 }
+section .preguntas h2 {
+  font-size: 2rem;
+  color: white;
+}
+section .preguntas ol li {
+  color: black;
+  font-size: 1rem;
+}
 
 footer {
   background-image: linear-gradient(to right, #FF80E6, #800080);
