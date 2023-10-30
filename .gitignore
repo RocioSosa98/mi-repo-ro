@@ -1,2 +1,5 @@
 # este archivo funciona para ignorar archivos
 wireframe-renna.cosmeticos
+package-lock.json
+package.json
+node_modules

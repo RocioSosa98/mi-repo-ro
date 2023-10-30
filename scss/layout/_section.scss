@@ -1,0 +1,208 @@
+section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    img {
+        width: 15rem;
+    }
+
+    h1 {
+        color: #1A1A1A;
+        font-size: 2.2rem;
+        font-family: 'Advertencia', cursiva;
+        margin-left: 5rem;
+        padding-bottom: 4rem;
+        padding-top: 2rem;
+
+    }
+
+    .caja-uno {
+        padding: 1.4rem;
+        background-color: #4F7D96;
+        border-radius: 2rem;
+        align-self: center;
+        margin-top: 2rem;
+    }
+
+    .caja-dos {
+        margin-top: 4rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        background-color: #4F7D96;
+        border-radius: 2rem;
+        align-self: center;
+    }
+
+    .caja-tres {
+        margin-top: 4rem;
+        padding: 1.4rem;
+        background-color: #4F7D96;
+        border-radius: 2rem;
+        align-self: center;
+    }
+
+    .caja-cuatro {
+        margin-top: 4rem;
+        padding: 1.4rem;
+        background-color: #4F7D96;
+        border-radius: 2rem;
+        align-self: center;
+    }
+
+    .caja-cinco {
+        margin-top: 4rem;
+        padding: 1.4rem;
+        border-radius: 2rem;
+        background-color: #4F7D96;
+        align-self: center;
+    }
+
+    .caja-seis {
+        margin-top: 4rem;
+        padding: 1.4rem;
+        background-color: #4F7D96;
+        border-radius: 2rem;
+        align-self: center;
+        justify-content: center;
+    }
+
+    p {
+        font-family: 'Advertencia', cursiva;
+        font-size: medium;
+        font-style: oblique;
+        text-align: center;
+
+    }
+
+    /*Pagina Productos*/
+    h2 {
+        color: #1A1A1A;
+        font-size: 2rem;
+        margin-top: 4rem;
+        margin-left: 5rem;
+        font-family: 'Advertencia', cursiva;
+
+    }
+
+    .parrafo-productos {
+        color: #e9c6db;
+        background-color: #a73657;
+        font-size: 3rem;
+        border: 1rem double black;
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div h2 {
+        color: #1A1A1A;
+        font-size: 2rem;
+        font-family: 'Advertencia', cursiva;
+        align-self: center;
+        margin-left: 2rem;
+
+    }
+
+    .caja-siete {
+        margin-top: 4rem;
+        padding: 1.4rem;
+        background-color: #4F7D96;
+        border-radius: 2rem;
+        align-self: center;
+
+    }
+
+    .caja-ocho {
+        margin-top: 4rem;
+        padding: 1.4rem;
+        background-color: #4F7D96;
+        border-radius: 2rem;
+        align-self: center;
+    }
+
+    .caja-nueve {
+        margin-top: 4rem;
+        padding: 1.4rem;
+        background-color: #4F7D96;
+        border-radius: 2rem;
+        align-self: center;
+
+    }
+
+    .caja-diez {
+        margin-top: 4rem;
+        padding: 1.4rem;
+        background-color: #4F7D96;
+        border-radius: 2rem;
+        align-self: center;
+    }
+
+    //Pagina Combos
+
+video{
+    width: 100%;
+     margin-top:3rem;
+}
+
+    .parrafo-combos {
+        margin: 2rem;
+        font-size: 2rem;
+        align-items: center;
+    }
+
+    .caja-once {
+        margin: 1rem;
+        // margin-top: 4rem;
+        padding: 1.4rem;
+        background-color: #4F7D96;
+        border-radius: 2rem;
+        align-self: center;
+    }
+
+    .caja-doce {
+        margin: 1rem;
+        // margin-top: 4rem;
+        padding: 1.4rem;
+        background-color: #4F7D96;
+        border-radius: 2rem;
+        align-self: center;
+    }
+
+    .caja-trece {
+        margin: 1rem;
+        // margin-top: 4rem;
+        padding: 1.4rem;
+        background-color: #4F7D96;
+        border-radius: 2rem;
+        align-self: center;
+    }
+
+    .caja-catorce {
+        margin: 1rem;
+        // margin-top: 4rem;
+        padding: 1.4rem;
+        background-color: #4F7D96;
+        border-radius: 2rem;
+        align-self: center;
+    }
+
+    .caja-quince {
+        margin: 1rem;
+        // margin-top: 4rem;
+        padding: 1.4rem;
+        background-color: #4F7D96;
+        border-radius: 2rem;
+        align-self: center;
+    }
+
+    //Pagina Preguntas
+
+
+
+
+}

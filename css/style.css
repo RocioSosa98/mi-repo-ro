@@ -1,192 +1,269 @@
-* {
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2? family= Advertencia:wght@500 & display=swap");
+header {
+  border-bottom: 5px solid #a73657;
+  padding: 1rem;
+  justify-content: space-around;
+  background-image: linear-gradient(to right, #FF80E6, #800080);
+}
+header img {
+  width: 10rem;
+}
+header nav ul li a {
+  font-family: "Advertencia", cursiva;
+  margin: 2rem;
+  color: #343a40;
+  text-decoration: none;
+  justify-content: center;
+}
+header nav ul li a:hover {
+  color: #fb8b24;
+  margin: 1rem;
+  font-size: 1.2rem;
+  transition: 2s;
+}
+header nav .button-01 {
+  display: block;
+  text-decoration: none;
+  color: #a73657;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 7rem;
+  border-radius: 2rem;
+  text-align: center;
+  background-image: linear-gradient(to right, #ffccd5, #fff0f3);
 }
 
-@import url('https://fonts.googleapis.com/css2? family= Advertencia:wght@500 & display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
 
 html {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-header {
-     background-color: #E79EFF;
-    border-bottom: 5px solid #a73657;
-
-}
-header img{
-    width: 10rem;
-}
-.nav-renna{
-    font-family: 'Advertencia', cursiva;
-    margin: 1.5rem;
-    color: #4F7D96;
-}
-.nav-renna:hover{
-    color: #ffc328;
+body {
+  background-color: #ffe5ec;
 }
 
-header a{
-    transition: 1s;
-}
-header a:hover{
-    color: #ffc328;
-    margin: 1rem;
-    font-size: 1.2rem;
-}
 section {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    cursor:pointer;
-
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: center;
+  /*Pagina Productos*/
 }
 section img {
-    width: 15rem;
+  width: 15rem;
 }
-
-
- section h1{
-    color: #1A1A1A;
-    font-size: 2.2rem;
-    font-family: 'Advertencia', cursiva;
-    margin-left: 5rem;
-    padding-bottom: 4rem;
-    padding-top: 2rem;
+section h1 {
+  color: #1A1A1A;
+  font-size: 2.2rem;
+  font-family: "Advertencia", cursiva;
+  margin-left: 5rem;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
 }
 section .caja-uno {
-    padding: 1.4rem;
-    background-color:#4F7D96;
-    border-radius: 2rem;
-    align-self: center;
+  padding: 1.4rem;
+  background-color: #4F7D96;
+  border-radius: 2rem;
+  align-self: center;
+  margin-top: 2rem;
 }
-
 section .caja-dos {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    background-color:#4F7D96;
-    border-radius: 2rem;
-    align-self: center;
+  margin-top: 4rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  background-color: #4F7D96;
+  border-radius: 2rem;
+  align-self: center;
 }
-
 section .caja-tres {
-    padding: 1.4rem;
-    background-color:#4F7D96;
-    border-radius: 2rem;
-    align-self: center;
+  margin-top: 4rem;
+  padding: 1.4rem;
+  background-color: #4F7D96;
+  border-radius: 2rem;
+  align-self: center;
 }
-
-
-
-   
-section .caja-cuatro{
-    padding: 1.4rem;
-    background-color:#4F7D96;
-    border-radius: 2rem;
-    align-self: center;
+section .caja-cuatro {
+  margin-top: 4rem;
+  padding: 1.4rem;
+  background-color: #4F7D96;
+  border-radius: 2rem;
+  align-self: center;
 }
-section .caja-cinco{
-    padding: 1.4rem;
-    border-radius: 2rem;
-    background-color:#4F7D96;
-    align-self: center;
+section .caja-cinco {
+  margin-top: 4rem;
+  padding: 1.4rem;
+  border-radius: 2rem;
+  background-color: #4F7D96;
+  align-self: center;
 }
-section .caja-seis{
-    padding: 1.4rem;
-    background-color:#4F7D96;
-    border-radius: 2rem;
-    align-self: center;
-    justify-content: center;
+section .caja-seis {
+  margin-top: 4rem;
+  padding: 1.4rem;
+  background-color: #4F7D96;
+  border-radius: 2rem;
+  align-self: center;
+  justify-content: center;
 }
-
-
-
-
-p {
-    font-family: 'Advertencia', cursiva;
-    font-size: medium;
-    font-style: oblique;
-    text-align: center;
-
+section p {
+  font-family: "Advertencia", cursiva;
+  font-size: medium;
+  font-style: oblique;
+  text-align: center;
 }
-
-
+section h2 {
+  color: #1A1A1A;
+  font-size: 2rem;
+  margin-top: 4rem;
+  margin-left: 5rem;
+  font-family: "Advertencia", cursiva;
+}
+section .parrafo-productos {
+  color: #e9c6db;
+  background-color: #a73657;
+  font-size: 3rem;
+  border: 1rem double black;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+section div h2 {
+  color: #1A1A1A;
+  font-size: 2rem;
+  font-family: "Advertencia", cursiva;
+  align-self: center;
+  margin-left: 2rem;
+}
+section .caja-siete {
+  margin-top: 4rem;
+  padding: 1.4rem;
+  background-color: #4F7D96;
+  border-radius: 2rem;
+  align-self: center;
+}
+section .caja-ocho {
+  margin-top: 4rem;
+  padding: 1.4rem;
+  background-color: #4F7D96;
+  border-radius: 2rem;
+  align-self: center;
+}
+section .caja-nueve {
+  margin-top: 4rem;
+  padding: 1.4rem;
+  background-color: #4F7D96;
+  border-radius: 2rem;
+  align-self: center;
+}
+section .caja-diez {
+  margin-top: 4rem;
+  padding: 1.4rem;
+  background-color: #4F7D96;
+  border-radius: 2rem;
+  align-self: center;
+}
+section video {
+  width: 100%;
+  margin-top: 3rem;
+}
+section .parrafo-combos {
+  margin: 2rem;
+  font-size: 2rem;
+  align-items: center;
+}
+section .caja-once {
+  margin: 1rem;
+  padding: 1.4rem;
+  background-color: #4F7D96;
+  border-radius: 2rem;
+  align-self: center;
+}
+section .caja-doce {
+  margin: 1rem;
+  padding: 1.4rem;
+  background-color: #4F7D96;
+  border-radius: 2rem;
+  align-self: center;
+}
+section .caja-trece {
+  margin: 1rem;
+  padding: 1.4rem;
+  background-color: #4F7D96;
+  border-radius: 2rem;
+  align-self: center;
+}
+section .caja-catorce {
+  margin: 1rem;
+  padding: 1.4rem;
+  background-color: #4F7D96;
+  border-radius: 2rem;
+  align-self: center;
+}
+section .caja-quince {
+  margin: 1rem;
+  padding: 1.4rem;
+  background-color: #4F7D96;
+  border-radius: 2rem;
+  align-self: center;
+}
 
 footer {
-       flex-wrap: wrap;
-      font-family:'Advertencia', cursiva; 
-       font-size: 1.5rem;
-      list-style: none;
-      background-color:#fff7d0;
-      margin: 5rem;
+  background-image: linear-gradient(to right, #FF80E6, #800080);
+  color: black;
+  margin-top: 20rem;
+  align-items: center;
+  border-top: 1px solid gray;
 }
-footer li a{
-    color: #1A1A1A;
-    text-decoration: none;
+footer .container-footer {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+footer .container-footer .column-01 {
+  max-width: 30rem;
+}
+footer .container-footer .column-01 h1 {
+  font-size: 2rem;
+  color: black;
+}
+footer .container-footer .column-01 p {
+  font-size: 1rem;
+  color: white;
+  margin-top: 1rem;
+}
+footer .container-footer .column-02 {
+  margin-left: 4rem;
+}
+footer .container-footer .column-02 h2 {
+  color: black;
+  font-size: 2rem;
+}
+footer .container-footer .column-02 .filas {
+  color: white;
+  margin-top: 2rem;
+  display: flex;
+}
+footer .container-footer .column-02 .filas img {
+  width: 4rem;
+}
+footer .container-footer .column-03 {
+  margin-left: 4rem;
+}
+footer .container-footer .column-03 h2 {
+  color: green;
+}
+footer .container-footer .column-03 li a {
+  color: yellow;
+  text-decoration: none;
+}
+footer .container-footer .column-03 li a:active {
+  color: #91ffbe;
+}
 
-}
-
-footer li a:active{
-    color:#91ffbe;
-}
-/*Pagina Productos*/
-  section h2{
-    color: #1A1A1A;
-    font-size: 2rem;
-    margin-top: 4rem;
-    margin-left: 5rem;
-    font-family: 'Advertencia', cursiva;
-    
-}
- section .parrafo-productos{
-    color:#e9c6db;
-    background-color:#a73657;
-    font-size: 3rem;
-    border: 1rem double black;
-    margin-top: 2rem;
-    display: flex;
-    flex-wrap: wrap;
- }
- section div h2{
-    color: #1A1A1A;
-    font-size: 2rem;
-    font-family: 'Advertencia', cursiva;
-    align-self: center;
-    margin-left: 2rem;
-
-}
-section .caja-siete{
-    margin-top: 4rem;
-    padding: 1.4rem;
-    background-color: #4F7D96;
-    border-radius: 2rem;
-    align-self: center;
-    
-}
-section .caja-ocho{
-    margin-top: 4rem;
-    padding: 1.4rem;
-    background-color: #4F7D96;
-    border-radius: 2rem;
-    align-self: center;
-}
-section .caja-nueve{
-    margin-top: 4rem;
-    padding:1.4rem ;
-    background-color: #4F7D96;
-    border-radius: 2rem;
-    align-self: center;
-
-}
-section .caja-diez{
-    margin-top: 4rem;
-    padding: 1.4rem;
-    background-color: #4F7D96;
-    border-radius: 2rem;
-    align-self: center;
-}
-body{
-    background-color: #fff7d0;
-}
+/*# sourceMappingURL=style.css.map */
