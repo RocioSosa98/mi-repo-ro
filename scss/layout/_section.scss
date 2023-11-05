@@ -4,9 +4,7 @@ section {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    align-items: center;
     flex-wrap: wrap;
-
     align-items: center;
 
     img {
@@ -18,24 +16,23 @@ section {
         font-size: $font-size-h1;
         font-family: 'Advertencia', cursiva;
         margin-left: 5rem;
-        padding-bottom: 4rem;
+        padding-bottom:2rem;
         padding-top: 2rem;
 
     }
 
     .caja-uno {
-        padding: 1.4rem;
+        padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
-        margin-top: 2rem;
+        margin-top: 4rem;
         color: $color-renna;
     }
 
     .caja-dos {
         margin-top: 4rem;
-        padding-right: 1.5rem;
-        padding-left: 1.5rem;
+        padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
@@ -44,7 +41,7 @@ section {
 
     .caja-tres {
         margin-top: 4rem;
-        padding: 1.4rem;
+        padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
@@ -53,7 +50,7 @@ section {
 
     .caja-cuatro {
         margin-top: 4rem;
-        padding: 1.4rem;
+        padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
@@ -62,7 +59,7 @@ section {
 
     .caja-cinco {
         margin-top: 4rem;
-        padding: 1.4rem;
+        padding: 1rem;
         border-radius: 2rem;
         background-color: $color-box;
         align-self: center;
@@ -71,11 +68,10 @@ section {
 
     .caja-seis {
         margin-top: 4rem;
-        padding: 1.4rem;
+        padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
-        justify-content: center;
         color: $color-renna;
     }
 
@@ -93,8 +89,8 @@ section {
         color: #e9c6db;
         background-color: $background-prod;
         font-size: $font-size-parra;
-        border: 1rem double black;
-        margin-top: 2rem;
+        border: 1rem solid black;
+        margin: 2rem;
         display: flex;
         flex-wrap: wrap;
     }
@@ -103,14 +99,15 @@ section {
         color: $color-renna;
         font-size: $font-size-h2;
         font-family: 'Advertencia', cursiva;
-        align-self: center;
+        align-items: center;
         margin-left: 2rem;
+        margin-top: 2rem;
 
     }
 
     .caja-siete {
         margin-top: 4rem;
-        padding: 1.4rem;
+        padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
@@ -120,7 +117,7 @@ section {
 
     .caja-ocho {
         margin-top: 4rem;
-        padding: 1.4rem;
+        padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
@@ -129,7 +126,7 @@ section {
 
     .caja-nueve {
         margin-top: 4rem;
-        padding: 1.4rem;
+        padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
@@ -139,7 +136,7 @@ section {
 
     .caja-diez {
         margin-top: 4rem;
-        padding: 1.4rem;
+        padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
@@ -161,7 +158,7 @@ section {
 
     .caja-once {
         margin: 1rem;
-        padding: 1.4rem;
+        padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
@@ -169,7 +166,7 @@ section {
 
     .caja-doce {
         margin: 1rem;
-        padding: 1.4rem;
+        padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
@@ -178,7 +175,7 @@ section {
 
     .caja-trece {
         margin: 1rem;
-        padding: 1.4rem;
+        padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
@@ -187,16 +184,16 @@ section {
 
     .caja-catorce {
         margin: 1rem;
-        // margin-top: 4rem;
-        padding: 1.4rem;
+        padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
+        color: $color-renna;
     }
 
     .caja-quince {
         margin: 1rem;
-        padding: 1.4rem;
+        padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;

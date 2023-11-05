@@ -1,9 +1,8 @@
 @import "../utilities/variables";
 header {
-    // background-color: #E79EFF;
     border-bottom: 5px solid #a73657;
-    padding: 1rem;
-    justify-content: space-around;
+    // padding: 1rem;
+    justify-content:space-between;
     //gradiente lineal
     background-image: linear-gradient(to right,#FF80E6, #800080);
 
@@ -19,7 +18,7 @@ header {
                     margin: 2rem;
                     color: $color-renna;
                     text-decoration: none;
-                    justify-content: center;
+                    // justify-content: center;
                 
 
                     &:hover {
