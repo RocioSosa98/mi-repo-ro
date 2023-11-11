@@ -110,9 +110,7 @@ section .parrafo-productos, section div.parrafo-mujeres {
   background-color: #a73657;
   font-size: 4rem;
   border: 1rem double white;
-  margin: 2rem;
-  display: flex;
-  flex-wrap: wrap;
+  margin: 1rem;
   text-align: center;
 }
 section div h2 {
