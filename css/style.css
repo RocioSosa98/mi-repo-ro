@@ -105,12 +105,11 @@ section p {
   font-style: oblique;
   text-align: center;
 }
-section .parrafo-productos, section div.parrafo-mujeres {
+section .parrafo-productos {
   color: #e9c6db;
   background-color: #a73657;
   font-size: 4rem;
   border: 1rem double white;
-  margin: 1rem;
   text-align: center;
 }
 section div h2 {
@@ -157,7 +156,7 @@ section video {
   width: 80%;
   margin-top: 3rem;
 }
-section .parrafo-combos {
+section .parrafo-combos, section div.parrafo-mujeres {
   margin: 1rem;
   font-size: 1.5rem;
   text-align: center;

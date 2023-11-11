@@ -98,9 +98,6 @@ section {
         background-color: $background-prod;
         font-size: $font-size-parra;
         border: 1rem double white;
-        margin: 1rem;
-        // display: flex;
-        // flex-wrap: wrap;
         text-align: center;
     }
 
@@ -110,8 +107,6 @@ section {
         font-family: 'Advertencia', cursiva;
         align-self: center;
         margin: 1rem;
-        // margin-left: 2rem;
-        // margin-top: 2rem;
         text-align: center;
 
     }
@@ -253,7 +248,8 @@ section {
 
     div.parrafo-mujeres {
 
-        @extend.parrafo-productos;
+        @extend.parrafo-combos;
+    
 
     }
 
