@@ -108,8 +108,9 @@ section p {
 section .parrafo-productos {
   color: #e9c6db;
   background-color: #a73657;
-  font-size: 4rem;
-  border: 1rem double white;
+  font-size: 3rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
   text-align: center;
 }
 section div h2 {
