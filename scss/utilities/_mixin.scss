@@ -9,13 +9,15 @@
     text-decoration: none;
     border-radius:2rem;
     text-align: center;
-    display: flex;
+    display: block;
+    margin-top: 20rem;
+
 
     &:hover{
         background-color: purple;
     }
 }
 
-.button1{
+.button-02{
     @include button-style(pink, black, 7rem, Arial, 1s);
 }

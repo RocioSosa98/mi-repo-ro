@@ -6,6 +6,7 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+   
 
     img {
         width: 15rem;
@@ -16,7 +17,6 @@ section {
         font-size: $font-size-h1;
         font-family: 'Advertencia', cursiva;
         margin-left: 5rem;
-        padding-bottom:2rem;
         padding-top: 2rem;
 
     }
@@ -26,12 +26,14 @@ section {
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
-        margin-top: 4rem;
+        // margin-top: 4rem;
+        margin: 1rem;
         color: $color-renna;
     }
 
     .caja-dos {
-        margin-top: 4rem;
+        margin: 1rem;
+        // margin-top: 4rem;
         padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
@@ -40,7 +42,8 @@ section {
     }
 
     .caja-tres {
-        margin-top: 4rem;
+        margin: 1rem;
+        // margin-top: 4rem;
         padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
@@ -49,7 +52,8 @@ section {
     }
 
     .caja-cuatro {
-        margin-top: 4rem;
+        margin: 1rem;
+        // margin-top: 4rem;
         padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
@@ -58,21 +62,25 @@ section {
     }
 
     .caja-cinco {
-        margin-top: 4rem;
+        margin: 1rem;
+        // margin-top: 4rem;
         padding: 1rem;
         border-radius: 2rem;
         background-color: $color-box;
         align-self: center;
         color: $color-renna;
+       
     }
 
     .caja-seis {
-        margin-top: 4rem;
+        margin: 1rem;
+        // margin-top: 4rem;
         padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
         color: $color-renna;
+       
     }
 
     p {
@@ -89,34 +97,39 @@ section {
         color: #e9c6db;
         background-color: $background-prod;
         font-size: $font-size-parra;
-        border: 1rem solid black;
+        border: 1rem double white;
         margin: 2rem;
         display: flex;
         flex-wrap: wrap;
+        text-align: center;
     }
 
     div h2 {
         color: $color-renna;
         font-size: $font-size-h2;
         font-family: 'Advertencia', cursiva;
-        align-items: center;
+        align-self: center;
         margin-left: 2rem;
         margin-top: 2rem;
+        text-align: center;
 
     }
 
     .caja-siete {
-        margin-top: 4rem;
+        margin: 1rem;
+        // margin-top: 4rem;
         padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
         color: $color-renna;
+       
 
     }
 
     .caja-ocho {
-        margin-top: 4rem;
+        margin: 1rem;
+        // margin-top: 4rem;
         padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
@@ -125,34 +138,42 @@ section {
     }
 
     .caja-nueve {
-        margin-top: 4rem;
+        margin: 1rem;
+        // margin-top: 4rem;
         padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
         color: $color-renna;
+     
 
     }
 
     .caja-diez {
-        margin-top: 4rem;
+        margin: 1rem;
+        // margin-top: 4rem;
         padding: 1rem;
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
         color: $color-renna;
+       
     }
 
     //Pagina Combos
-
-    video {
-        width: 100%;
-        margin-top: 3rem;
-    }
+    
+        video{
+            width: 80%;
+             margin-top: 3rem;
+        }
+    
+     
+   
 
     .parrafo-combos {
-        margin: 2rem;
-        font-size: 2rem;
+        margin:1rem;
+        font-size: 1.5rem;
+        text-align: center;
         align-items: center;
     }
 
@@ -162,6 +183,8 @@ section {
         background-color: $color-box;
         border-radius: 2rem;
         align-self: center;
+        color: $color-renna;
+    
     }
 
     .caja-doce {
@@ -171,6 +194,7 @@ section {
         border-radius: 2rem;
         align-self: center;
         color: $color-renna;
+       
     }
 
     .caja-trece {
@@ -180,6 +204,7 @@ section {
         border-radius: 2rem;
         align-self: center;
         color: $color-renna;
+        text-align: center;
     }
 
     .caja-catorce {
@@ -189,6 +214,7 @@ section {
         border-radius: 2rem;
         align-self: center;
         color: $color-renna;
+        text-align: center;
     }
 
     .caja-quince {
@@ -198,6 +224,7 @@ section {
         border-radius: 2rem;
         align-self: center;
         color: $color-renna;
+        text-align: center;
     }
 
     //Pagina Preguntas
@@ -217,21 +244,21 @@ section {
     }
 
     // Pagina Mujeres   
-    video{
+    video {
         width: 90%;
-       margin-top: 2rem;
-       margin-left: 2rem
-   
+     margin-left: 2rem;
+     margin-top: 2rem
     }
-    div.parrafo-mujeres{
+
+    div.parrafo-mujeres {
 
         @extend.parrafo-productos;
 
     }
-        
-          
-        
-    
+
+
+
+
 
 
 }
