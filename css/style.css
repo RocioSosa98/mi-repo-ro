@@ -270,8 +270,8 @@ footer .container-footer .column-02 .filas img {
   text-decoration: none;
   border-radius: 2rem;
   text-align: center;
-  display: block;
-  margin-top: 20rem;
+  display: flex;
+  margin-left: 3rem;
 }
 .button-02:hover {
   background-color: purple;
