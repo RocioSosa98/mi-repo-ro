@@ -8,5 +8,20 @@ html {
 }
 body{
     background-color: $background-body;
+    
+div.anuncio {
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: #fefae0;
+
+    span {
+        font-weight: bold;
+    }
+
+
+}
+
+
 }
 

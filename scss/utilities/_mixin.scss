@@ -1,23 +1,22 @@
-@mixin button-style ($bg-color, $text-color, $ancho, $font, $time){
+@mixin button-style ($bg-color, $text-color, $ancho, $font, $time) {
     background-color: $bg-color;
     color: $text-color;
     width: $ancho;
     font-family: $font;
     transition: $time;
     cursor: pointer;
-    padding: 1rem;
     text-decoration: none;
-    border-radius:2rem;
+    border-radius: 2rem;
     text-align: center;
-    display: flex;
+    display: block;
     margin-left: 3rem;
 
 
-    &:hover{
+    &:hover {
         background-color: purple;
     }
 }
 
-.button-02{
+.button-02 {
     @include button-style(pink, black, 7rem, Arial, 1s);
 }

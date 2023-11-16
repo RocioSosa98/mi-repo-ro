@@ -1,7 +1,7 @@
 footer {
 
     //gradiente lineal
-    background-image: linear-gradient(to right,#FF80E6, #800080);
+    background-image: linear-gradient(to right,#FF80E6,#B721FF);
     color: black;
     margin-top: 20rem;
     align-items: center;
@@ -15,15 +15,18 @@ footer {
         .column-01 {
             max-width: 30rem;
 
-            h1 {
+            h2{
                 font-size: $font-size-h1;
                 color: color-renna;
+                font-family: 'Nanum Myeongjo', serif;
             }
 
             p {
                 font-size: 1rem;
                 color: color-renna;
                 margin-top: 1rem;
+                font-family: 'PT Serif', serif;
+                
             }
 
         }
@@ -31,15 +34,17 @@ footer {
         .column-02 {
             margin-left: 4rem;
 
-            h2 {
+            h3{
                 color: black;
                 font-size: $font-size-h2;
+                font-family: 'Nanum Myeongjo', serif;;
             }
 
             .filas {
                 color: color-renna;
                 margin-top: 2rem;
                 display: flex;
+                font-family: 'Nanum Myeongjo', serif;
 
                 img {
                     width: 4rem;
