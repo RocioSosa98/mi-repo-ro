@@ -70,7 +70,7 @@ section h2 {
   align-self: center;
   margin: 1rem;
 }
-section .caja-uno {
+section .caja {
   width: 14rem;
   background-color: #8EC5FC;
   border-radius: 2rem;
@@ -79,67 +79,7 @@ section .caja-uno {
   color: #343a40;
   text-align: center;
 }
-section .caja-uno img {
-  width: 14rem;
-}
-section .caja-dos {
-  margin: 1rem;
-  width: 14rem;
-  background-color: #8EC5FC;
-  border-radius: 2rem;
-  align-self: center;
-  color: #343a40;
-  text-align: center;
-}
-section .caja-dos img {
-  width: 14rem;
-}
-section .caja-tres {
-  margin: 1rem;
-  width: 14rem;
-  background-color: #8EC5FC;
-  border-radius: 2rem;
-  align-self: center;
-  color: #343a40;
-  text-align: center;
-}
-section .caja-tres img {
-  width: 14rem;
-}
-section .caja-cuatro {
-  margin: 1rem;
-  width: 14rem;
-  background-color: #8EC5FC;
-  border-radius: 2rem;
-  align-self: center;
-  color: #343a40;
-  text-align: center;
-}
-section .caja-cuatro img {
-  width: 14rem;
-}
-section .caja-cinco {
-  margin: 1rem;
-  width: 14rem;
-  border-radius: 2rem;
-  background-color: #8EC5FC;
-  align-self: center;
-  color: #343a40;
-  text-align: center;
-}
-section .caja-cinco img {
-  width: 14rem;
-}
-section .caja-seis {
-  margin: 1rem;
-  width: 14rem;
-  background-color: #8EC5FC;
-  border-radius: 2rem;
-  align-self: center;
-  text-align: center;
-  color: #343a40;
-}
-section .caja-seis img {
+section .caja img {
   width: 14rem;
 }
 section p {
@@ -165,54 +105,6 @@ section div h1 {
   margin: 1rem;
   text-align: center;
 }
-section .caja-siete {
-  margin: 1rem;
-  width: 14rem;
-  background-color: #8EC5FC;
-  border-radius: 2rem;
-  align-self: center;
-  color: #343a40;
-  text-align: center;
-}
-section .caja-siete img {
-  width: 14rem;
-}
-section .caja-ocho {
-  margin: 1rem;
-  width: 14rem;
-  background-color: #8EC5FC;
-  border-radius: 2rem;
-  align-self: center;
-  color: #343a40;
-  text-align: center;
-}
-section .caja-ocho img {
-  width: 14rem;
-}
-section .caja-nueve {
-  margin: 1rem;
-  width: 14rem;
-  background-color: #8EC5FC;
-  border-radius: 2rem;
-  align-self: center;
-  text-align: center;
-  color: #343a40;
-}
-section .caja-nueve img {
-  width: 14rem;
-}
-section .caja-diez {
-  margin: 1rem;
-  width: 14rem;
-  background-color: #8EC5FC;
-  border-radius: 2rem;
-  align-self: center;
-  text-align: center;
-  color: #343a40;
-}
-section .caja-diez img {
-  width: 14rem;
-}
 section video {
   width: 80%;
   margin-top: 3rem;
@@ -224,66 +116,6 @@ section .parrafo-combos, section div.parrafo-mujeres {
   text-align: center;
   align-items: center;
   font-family: "PT Serif", serif;
-}
-section .caja-once {
-  margin: 1rem;
-  width: 14rem;
-  background-color: #8EC5FC;
-  border-radius: 2rem;
-  align-self: center;
-  color: #343a40;
-  text-align: center;
-}
-section .caja-once img {
-  width: 14rem;
-}
-section .caja-doce {
-  margin: 1rem;
-  width: 14rem;
-  background-color: #8EC5FC;
-  border-radius: 2rem;
-  align-self: center;
-  color: #343a40;
-  text-align: center;
-}
-section .caja-doce img {
-  width: 14rem;
-}
-section .caja-trece {
-  margin: 1rem;
-  width: 14rem;
-  background-color: #8EC5FC;
-  border-radius: 2rem;
-  align-self: center;
-  color: #343a40;
-  text-align: center;
-}
-section .caja-trece img {
-  width: 14rem;
-}
-section .caja-catorce {
-  margin: 1rem;
-  width: 14rem;
-  background-color: #8EC5FC;
-  border-radius: 2rem;
-  align-self: center;
-  color: #343a40;
-  text-align: center;
-}
-section .caja-catorce img {
-  width: 14rem;
-}
-section .caja-quince {
-  margin: 1rem;
-  width: 14rem;
-  background-color: #8EC5FC;
-  border-radius: 2rem;
-  align-self: center;
-  color: #343a40;
-  text-align: center;
-}
-section .caja-quince img {
-  width: 14rem;
 }
 section .preguntas1 h2 {
   font-size: 2rem;
@@ -322,7 +154,7 @@ section .video-02 {
 footer {
   background-image: linear-gradient(to right, #FF80E6, #B721FF);
   color: black;
-  margin-top: 20rem;
+  margin-top: 2rem;
   align-items: center;
   border-top: 1px solid gray;
 }
@@ -394,7 +226,7 @@ footer .container-footer .column-02 .filas img {
 
 @media (max-width: 400px) {
   body {
-    background-color: pink;
+    background-color: #c06c84;
   }
 }
 @media (min-width: 1680px) {
